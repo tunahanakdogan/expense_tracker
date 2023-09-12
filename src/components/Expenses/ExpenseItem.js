@@ -1,6 +1,6 @@
-import Card from "./Card";
-import ExpenseDate from "./ExpenseDate";
-import "./ExpenseItem.css";
+import Card from "../UI/Card";
+import ExpenseDate from "../Expenses/ExpenseDate";
+import "../Expenses/ExpenseItem.css";
 function ExpenseItem({ date, price, title }) {
   return (
     <Card className="expense-item">
